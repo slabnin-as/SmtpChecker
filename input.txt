@@ -1,0 +1,2 @@
+anton@mail.ru;anton;qwerty;192.168.0.1
+anton@citynsk.ru;anton@citynsk.ru;asdfgh;192.168.1.10

@@ -20,7 +20,7 @@ public class StartCheck implements Runnable{
 
     private void checkAccounts() throws IOException {
         String[] data = getRandomString().split(";");
-        Socket socket = new Socket("smtp.mail.ru", 80);
+        Socket socket = new Socket("smtp.sibnet.ru", 25);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         System.out.println(in.readLine());
     }
